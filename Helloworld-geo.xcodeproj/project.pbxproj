@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D6857A1A6C17D5002F1258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D685791A6C17D5002F1258 /* AppDelegate.swift */; };
+		43D6857C1A6C17D5002F1258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6857B1A6C17D5002F1258 /* ViewController.swift */; };
+		43D6857F1A6C17D5002F1258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D6857D1A6C17D5002F1258 /* Main.storyboard */; };
+		43D685811A6C17D5002F1258 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D685801A6C17D5002F1258 /* Images.xcassets */; };
+		43D685841A6C17D5002F1258 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D685821A6C17D5002F1258 /* LaunchScreen.xib */; };
+		43D685901A6C17D5002F1258 /* Helloworld_geoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D6858A1A6C17D5002F1258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D6856C1A6C17D5002F1258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D685731A6C17D5002F1258;
+			remoteInfo = "Helloworld-geo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D685741A6C17D5002F1258 /* Helloworld-geo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helloworld-geo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D685781A6C17D5002F1258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D685791A6C17D5002F1258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43D6857B1A6C17D5002F1258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43D6857E1A6C17D5002F1258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D685801A6C17D5002F1258 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43D685831A6C17D5002F1258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43D685891A6C17D5002F1258 /* Helloworld-geoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helloworld-geoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D6858E1A6C17D5002F1258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helloworld_geoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D685711A6C17D5002F1258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D685861A6C17D5002F1258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D6856B1A6C17D5002F1258 = {
+			isa = PBXGroup;
+			children = (
+				43D685761A6C17D5002F1258 /* Helloworld-geo */,
+				43D6858C1A6C17D5002F1258 /* Helloworld-geoTests */,
+				43D685751A6C17D5002F1258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D685751A6C17D5002F1258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D685741A6C17D5002F1258 /* Helloworld-geo.app */,
+				43D685891A6C17D5002F1258 /* Helloworld-geoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D685761A6C17D5002F1258 /* Helloworld-geo */ = {
+			isa = PBXGroup;
+			children = (
+				43D685791A6C17D5002F1258 /* AppDelegate.swift */,
+				43D6857B1A6C17D5002F1258 /* ViewController.swift */,
+				43D6857D1A6C17D5002F1258 /* Main.storyboard */,
+				43D685801A6C17D5002F1258 /* Images.xcassets */,
+				43D685821A6C17D5002F1258 /* LaunchScreen.xib */,
+				43D685771A6C17D5002F1258 /* Supporting Files */,
+			);
+			path = "Helloworld-geo";
+			sourceTree = "<group>";
+		};
+		43D685771A6C17D5002F1258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D685781A6C17D5002F1258 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43D6858C1A6C17D5002F1258 /* Helloworld-geoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */,
+				43D6858D1A6C17D5002F1258 /* Supporting Files */,
+			);
+			path = "Helloworld-geoTests";
+			sourceTree = "<group>";
+		};
+		43D6858D1A6C17D5002F1258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D6858E1A6C17D5002F1258 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D685731A6C17D5002F1258 /* Helloworld-geo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D685931A6C17D5002F1258 /* Build configuration list for PBXNativeTarget "Helloworld-geo" */;
+			buildPhases = (
+				43D685701A6C17D5002F1258 /* Sources */,
+				43D685711A6C17D5002F1258 /* Frameworks */,
+				43D685721A6C17D5002F1258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helloworld-geo";
+			productName = "Helloworld-geo";
+			productReference = 43D685741A6C17D5002F1258 /* Helloworld-geo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D685881A6C17D5002F1258 /* Helloworld-geoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D685961A6C17D5002F1258 /* Build configuration list for PBXNativeTarget "Helloworld-geoTests" */;
+			buildPhases = (
+				43D685851A6C17D5002F1258 /* Sources */,
+				43D685861A6C17D5002F1258 /* Frameworks */,
+				43D685871A6C17D5002F1258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D6858B1A6C17D5002F1258 /* PBXTargetDependency */,
+			);
+			name = "Helloworld-geoTests";
+			productName = "Helloworld-geoTests";
+			productReference = 43D685891A6C17D5002F1258 /* Helloworld-geoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D6856C1A6C17D5002F1258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "sebi-mbp";
+				TargetAttributes = {
+					43D685731A6C17D5002F1258 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					43D685881A6C17D5002F1258 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 43D685731A6C17D5002F1258;
+					};
+				};
+			};
+			buildConfigurationList = 43D6856F1A6C17D5002F1258 /* Build configuration list for PBXProject "Helloworld-geo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D6856B1A6C17D5002F1258;
+			productRefGroup = 43D685751A6C17D5002F1258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D685731A6C17D5002F1258 /* Helloworld-geo */,
+				43D685881A6C17D5002F1258 /* Helloworld-geoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D685721A6C17D5002F1258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D6857F1A6C17D5002F1258 /* Main.storyboard in Resources */,
+				43D685841A6C17D5002F1258 /* LaunchScreen.xib in Resources */,
+				43D685811A6C17D5002F1258 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D685871A6C17D5002F1258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D685701A6C17D5002F1258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D6857C1A6C17D5002F1258 /* ViewController.swift in Sources */,
+				43D6857A1A6C17D5002F1258 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D685851A6C17D5002F1258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D685901A6C17D5002F1258 /* Helloworld_geoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D6858B1A6C17D5002F1258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D685731A6C17D5002F1258 /* Helloworld-geo */;
+			targetProxy = 43D6858A1A6C17D5002F1258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D6857D1A6C17D5002F1258 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D6857E1A6C17D5002F1258 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43D685821A6C17D5002F1258 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D685831A6C17D5002F1258 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D685911A6C17D5002F1258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D685921A6C17D5002F1258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D685941A6C17D5002F1258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Helloworld-geo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43D685951A6C17D5002F1258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Helloworld-geo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43D685971A6C17D5002F1258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Helloworld-geoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helloworld-geo.app/Helloworld-geo";
+			};
+			name = Debug;
+		};
+		43D685981A6C17D5002F1258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Helloworld-geoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helloworld-geo.app/Helloworld-geo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D6856F1A6C17D5002F1258 /* Build configuration list for PBXProject "Helloworld-geo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D685911A6C17D5002F1258 /* Debug */,
+				43D685921A6C17D5002F1258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D685931A6C17D5002F1258 /* Build configuration list for PBXNativeTarget "Helloworld-geo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D685941A6C17D5002F1258 /* Debug */,
+				43D685951A6C17D5002F1258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43D685961A6C17D5002F1258 /* Build configuration list for PBXNativeTarget "Helloworld-geoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D685971A6C17D5002F1258 /* Debug */,
+				43D685981A6C17D5002F1258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D6856C1A6C17D5002F1258 /* Project object */;
+}
