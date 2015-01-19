@@ -31,14 +31,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         manager.stopUpdatingLocation()
         var localValue:CLLocationCoordinate2D = manager.location.coordinate
         
-        let registration = AGDeviceRegistration(serverURL: NSURL(string: "http://192.168.1.19:8080/unified-geo-server")!)
+        let registration = AGDeviceRegistration(serverURL: NSURL(string: "<URL of geo server>")!)
         
         // attemp to register
         registration.registerWithClientInfo({ (clientInfo: AGClientDeviceInformation!) in
             // setup configuration
-            clientInfo.alias = "seboule"
-            clientInfo.apiKey = "fa7612b4-329c-417a-80e5-2a48eb44dde4"
-            clientInfo.apiSecret = "8e82aaca-f733-4fbf-9834-16291d9eb726"
+            clientInfo.alias = "<unique identifier>"
+            clientInfo.apiKey = "<apiKey>"
+            clientInfo.apiSecret = "<apiSecret>"
             
             
             clientInfo.longitude = localValue.longitude
