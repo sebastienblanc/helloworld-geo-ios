@@ -7,36 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		434034B51A6C22E200A2FE37 /* AGClientDeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434034AA1A6C22E200A2FE37 /* AGClientDeviceInformation.swift */; };
-		434034B61A6C22E200A2FE37 /* AGClientDeviceInformationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434034AB1A6C22E200A2FE37 /* AGClientDeviceInformationImpl.swift */; };
-		434034B71A6C22E200A2FE37 /* AGDeviceRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434034AC1A6C22E200A2FE37 /* AGDeviceRegistration.swift */; };
-		434034B81A6C22E200A2FE37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 434034AD1A6C22E200A2FE37 /* Info.plist */; };
-		434034B91A6C22E200A2FE37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 434034B31A6C22E200A2FE37 /* Info.plist */; };
-		434034BA1A6C22E200A2FE37 /* UnifiedGeoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434034B41A6C22E200A2FE37 /* UnifiedGeoTests.swift */; };
 		43AD7EDB1A6C2DFA00D8065C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AD7EDA1A6C2DFA00D8065C /* CoreLocation.framework */; };
 		43D6857A1A6C17D5002F1258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D685791A6C17D5002F1258 /* AppDelegate.swift */; };
 		43D6857C1A6C17D5002F1258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6857B1A6C17D5002F1258 /* ViewController.swift */; };
 		43D6857F1A6C17D5002F1258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D6857D1A6C17D5002F1258 /* Main.storyboard */; };
 		43D685811A6C17D5002F1258 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D685801A6C17D5002F1258 /* Images.xcassets */; };
 		43D685841A6C17D5002F1258 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D685821A6C17D5002F1258 /* LaunchScreen.xib */; };
-		43D685901A6C17D5002F1258 /* Helloworld_geoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */; };
+		846EAB0CCAE4DDB7CA378A75 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7F1033FCAFF6AB8C914382 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		434034BD1A6C22E200A2FE37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 434034AF1A6C22E200A2FE37 /* UnifiedGeo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 43D685491A6C1356002F1258;
-			remoteInfo = UnifiedGeo;
-		};
-		434034BF1A6C22E200A2FE37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 434034AF1A6C22E200A2FE37 /* UnifiedGeo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 43D685541A6C1356002F1258;
-			remoteInfo = UnifiedGeoTests;
-		};
 		43D6858A1A6C17D5002F1258 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 43D6856C1A6C17D5002F1258 /* Project object */;
@@ -47,14 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		434034AA1A6C22E200A2FE37 /* AGClientDeviceInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGClientDeviceInformation.swift; sourceTree = "<group>"; };
-		434034AB1A6C22E200A2FE37 /* AGClientDeviceInformationImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGClientDeviceInformationImpl.swift; sourceTree = "<group>"; };
-		434034AC1A6C22E200A2FE37 /* AGDeviceRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGDeviceRegistration.swift; sourceTree = "<group>"; };
-		434034AD1A6C22E200A2FE37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434034AE1A6C22E200A2FE37 /* UnifiedGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnifiedGeo.h; sourceTree = "<group>"; };
-		434034AF1A6C22E200A2FE37 /* UnifiedGeo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = UnifiedGeo.xcodeproj; sourceTree = "<group>"; };
-		434034B31A6C22E200A2FE37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		434034B41A6C22E200A2FE37 /* UnifiedGeoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnifiedGeoTests.swift; sourceTree = "<group>"; };
 		43AD7EDA1A6C2DFA00D8065C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		43D685741A6C17D5002F1258 /* Helloworld-geo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helloworld-geo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D685781A6C17D5002F1258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +37,9 @@
 		43D685831A6C17D5002F1258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43D685891A6C17D5002F1258 /* Helloworld-geoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helloworld-geoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D6858E1A6C17D5002F1258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helloworld_geoTests.swift; sourceTree = "<group>"; };
+		73512DFD862BD0D4A2C05DC5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7F1033FCAFF6AB8C914382 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C93BE805B856509017F27F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43AD7EDB1A6C2DFA00D8065C /* CoreLocation.framework in Frameworks */,
+				846EAB0CCAE4DDB7CA378A75 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,54 +62,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		434034A81A6C22E200A2FE37 /* UnifiedGeo */ = {
-			isa = PBXGroup;
-			children = (
-				434034A91A6C22E200A2FE37 /* UnifiedGeo */,
-				434034AF1A6C22E200A2FE37 /* UnifiedGeo.xcodeproj */,
-				434034B21A6C22E200A2FE37 /* UnifiedGeoTests */,
-			);
-			path = UnifiedGeo;
-			sourceTree = "<group>";
-		};
-		434034A91A6C22E200A2FE37 /* UnifiedGeo */ = {
-			isa = PBXGroup;
-			children = (
-				434034AA1A6C22E200A2FE37 /* AGClientDeviceInformation.swift */,
-				434034AB1A6C22E200A2FE37 /* AGClientDeviceInformationImpl.swift */,
-				434034AC1A6C22E200A2FE37 /* AGDeviceRegistration.swift */,
-				434034AD1A6C22E200A2FE37 /* Info.plist */,
-				434034AE1A6C22E200A2FE37 /* UnifiedGeo.h */,
-			);
-			path = UnifiedGeo;
-			sourceTree = "<group>";
-		};
-		434034B01A6C22E200A2FE37 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				434034BE1A6C22E200A2FE37 /* UnifiedGeo.framework */,
-				434034C01A6C22E200A2FE37 /* UnifiedGeoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		434034B21A6C22E200A2FE37 /* UnifiedGeoTests */ = {
-			isa = PBXGroup;
-			children = (
-				434034B31A6C22E200A2FE37 /* Info.plist */,
-				434034B41A6C22E200A2FE37 /* UnifiedGeoTests.swift */,
-			);
-			path = UnifiedGeoTests;
-			sourceTree = "<group>";
-		};
 		43D6856B1A6C17D5002F1258 = {
 			isa = PBXGroup;
 			children = (
 				43AD7EDA1A6C2DFA00D8065C /* CoreLocation.framework */,
-				434034A81A6C22E200A2FE37 /* UnifiedGeo */,
 				43D685761A6C17D5002F1258 /* Helloworld-geo */,
 				43D6858C1A6C17D5002F1258 /* Helloworld-geoTests */,
 				43D685751A6C17D5002F1258 /* Products */,
+				FA29D5CBB266F938C41D9646 /* Pods */,
+				813C16464182CE5ADC3518ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,7 +107,6 @@
 		43D6858C1A6C17D5002F1258 /* Helloworld-geoTests */ = {
 			isa = PBXGroup;
 			children = (
-				43D6858F1A6C17D5002F1258 /* Helloworld_geoTests.swift */,
 				43D6858D1A6C17D5002F1258 /* Supporting Files */,
 			);
 			path = "Helloworld-geoTests";
@@ -185,6 +120,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		813C16464182CE5ADC3518ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7F1033FCAFF6AB8C914382 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA29D5CBB266F938C41D9646 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73512DFD862BD0D4A2C05DC5 /* Pods.debug.xcconfig */,
+				A3C93BE805B856509017F27F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43D685931A6C17D5002F1258 /* Build configuration list for PBXNativeTarget "Helloworld-geo" */;
 			buildPhases = (
+				5B354E64D65A13F54F58DB1C /* Check Pods Manifest.lock */,
 				43D685701A6C17D5002F1258 /* Sources */,
 				43D685711A6C17D5002F1258 /* Frameworks */,
 				43D685721A6C17D5002F1258 /* Resources */,
+				8A918834C7E6D7D00BCF75CF /* Embed Pods Frameworks */,
+				368553722FDF296542F0130E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,12 +207,6 @@
 			mainGroup = 43D6856B1A6C17D5002F1258;
 			productRefGroup = 43D685751A6C17D5002F1258 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 434034B01A6C22E200A2FE37 /* Products */;
-					ProjectRef = 434034AF1A6C22E200A2FE37 /* UnifiedGeo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				43D685731A6C17D5002F1258 /* Helloworld-geo */,
@@ -266,32 +215,13 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		434034BE1A6C22E200A2FE37 /* UnifiedGeo.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UnifiedGeo.framework;
-			remoteRef = 434034BD1A6C22E200A2FE37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		434034C01A6C22E200A2FE37 /* UnifiedGeoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UnifiedGeoTests.xctest;
-			remoteRef = 434034BF1A6C22E200A2FE37 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		43D685721A6C17D5002F1258 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434034B81A6C22E200A2FE37 /* Info.plist in Resources */,
 				43D6857F1A6C17D5002F1258 /* Main.storyboard in Resources */,
 				43D685841A6C17D5002F1258 /* LaunchScreen.xib in Resources */,
-				434034B91A6C22E200A2FE37 /* Info.plist in Resources */,
 				43D685811A6C17D5002F1258 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,15 +235,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		368553722FDF296542F0130E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B354E64D65A13F54F58DB1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A918834C7E6D7D00BCF75CF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43D685701A6C17D5002F1258 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434034B51A6C22E200A2FE37 /* AGClientDeviceInformation.swift in Sources */,
-				434034B61A6C22E200A2FE37 /* AGClientDeviceInformationImpl.swift in Sources */,
-				434034BA1A6C22E200A2FE37 /* UnifiedGeoTests.swift in Sources */,
-				434034B71A6C22E200A2FE37 /* AGDeviceRegistration.swift in Sources */,
 				43D6857C1A6C17D5002F1258 /* ViewController.swift in Sources */,
 				43D6857A1A6C17D5002F1258 /* AppDelegate.swift in Sources */,
 			);
@@ -323,7 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D685901A6C17D5002F1258 /* Helloworld_geoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +411,7 @@
 		};
 		43D685941A6C17D5002F1258 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73512DFD862BD0D4A2C05DC5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +426,7 @@
 		};
 		43D685951A6C17D5002F1258 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C93BE805B856509017F27F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

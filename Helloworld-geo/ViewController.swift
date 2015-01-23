@@ -1,13 +1,23 @@
-//
-//  ViewController.swift
-//  Helloworld-geo
-//
-//  Created by sebi-mbp on 18/01/15.
-//  Copyright (c) 2015 sebi-mbp. All rights reserved.
-//
+/*
+* JBoss, Home of Professional Open Source.
+* Copyright Red Hat, Inc., and individual contributors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
 
 import UIKit
 import CoreLocation
+import AeroGearGeo
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
@@ -31,16 +41,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         manager.stopUpdatingLocation()
         var localValue:CLLocationCoordinate2D = manager.location.coordinate
         
-        let registration = AGDeviceRegistration(serverURL: NSURL(string: "<URL of geo server>")!)
+        let registration = DeviceRegistration(serverURL: NSURL(string: "<URL of geo server>")!)
         
         // attemp to register
-        registration.registerWithClientInfo({ (clientInfo: AGClientDeviceInformation!) in
+        registration.registerWithClientInfo({ (var clientInfo: ClientDeviceInformation!) in
             // setup configuration
             clientInfo.alias = "<unique identifier>"
             clientInfo.apiKey = "<apiKey>"
             clientInfo.apiSecret = "<apiSecret>"
-            
-            
+
             clientInfo.longitude = localValue.longitude
             clientInfo.latitude = localValue.latitude
             },
